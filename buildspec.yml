@@ -3,8 +3,11 @@ version: 0.2
 phases:
   build:
     commands:
-       - echo "Hello World"
+      - echo "Processing mock test results"
+
 reports:
-  files:
-    - "mock.xml"
-  file-format: "JUNITXML"
+  junit_reports:
+    files:
+      - "mock.xml"
+    file-format: "JUNITXML"
+
