@@ -12,4 +12,4 @@ reports:
       - "mock2.xml"
       - "mock_no_testsuitename.xml"
       - "mock_empty_string_testsuitename.xml"
-
+    file-format: "JUNITXML"
