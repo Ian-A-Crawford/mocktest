@@ -10,4 +10,5 @@ reports:
     files:
       - "mock.xml"
       - "mock2.xml"
+      - "mock3.xml"
     file-format: "JUNITXML"
